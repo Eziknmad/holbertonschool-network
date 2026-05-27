@@ -19,6 +19,16 @@ Covers the foundational networking concepts including the OSI model, network typ
 | 4 | `4-TCP_and_UDP_ports` | Bash script that displays all active listening ports with PID/program |
 | 5 | `5-is_the_host_on_the_network` | Bash script that pings an IP address 5 times |
 
+### [basics_1](./basics_1)
+
+Covers localhost, the hosts file, IP address resolution, and practical network tools (`nc`, `ip`, `telnet`, `awk`, `cut`).
+
+| Task | File | Description |
+|------|------|-------------|
+| 0 | `0-change_your_home_IP` | Bash script that overrides `localhost` → `127.0.0.2` and `facebook.com` → `8.8.8.8` via `/etc/hosts` |
+| 1 | `1-show_attached_IPs` | Bash script that displays all active IPv4 addresses using `ip -4 addr show` |
+| 2 | `2-port_listening_on_localhost` | Bash script that opens a listening TCP socket on `127.0.0.1` port 98 using `nc` |
+
 ## Author
 
 Holberton School — Networking Track
