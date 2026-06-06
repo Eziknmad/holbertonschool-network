@@ -29,6 +29,15 @@ Covers localhost, the hosts file, IP address resolution, and practical network t
 | 1 | `1-show_attached_IPs` | Bash script that displays all active IPv4 addresses using `ip -4 addr show` |
 | 2 | `2-port_listening_on_localhost` | Bash script that opens a listening TCP socket on `127.0.0.1` port 98 using `nc` |
 
+### [what_happens_when_your_type_google_com_in_your_browser_and_press_enter](./what_happens_when_your_type_google_com_in_your_browser_and_press_enter)
+
+Explores the full journey of a web request — from pressing Enter to Google's homepage appearing on screen. Covers every layer of the web stack through a published blog post and a request flow diagram.
+
+| Task | File | Description |
+|------|------|-------------|
+| 0 | `0-blog_post` | URL of a published blog post explaining the full web request flow (DNS, TCP/IP, Firewall, HTTPS/SSL, Load Balancer, Web Server, Application Server, Database) |
+| 1 | `1-what_happen_when_diagram` | URL of a diagram illustrating the complete request flow from browser to database |
+
 ## Author
 
-Holberton School — Networking Track
+Kevin Galarza Arzon — Holberton School Aguadilla
